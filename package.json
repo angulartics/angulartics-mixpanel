@@ -1,0 +1,43 @@
+{
+  "name": "angulartics-mixpanel",
+  "version": "0.1.0",
+  "description": "Mixpanel plugin for Angulartics",
+  "keywords": [
+    "mixpanel",
+    "analytics",
+    "plugin",
+    "angular",
+    "angulartics"
+  ],
+  "author": "L42y <423300@gmail.com> (https://github.com/L42y)",
+  "contributors": [
+    "Tim Elfelt <timelf123@gmail.com> (https://github.com/timelf123)",
+    "Tomás Escobar <tomasescobar@users.noreply.github.com> (https://github.com/tomasescobar)",
+    "William Li <wli@williamhli.com> (https://github.com/wli)",
+    "pcw216 <pwinters@rallydev.com> (https://github.com/pcwinters)",
+    "Sampo Savolainen <sampo.savolainen@spatineo.com> (https://github.com/sampov2)",
+    "Luis Farzati <lfarzati@gmail.com> (https://github.com/luisfarzati)",
+    "mirko02 <mirko02@gmail.com> (https://github.com/mirko02)",
+    "Jude Matsalla <jude@affirm.com> (https://github.com/judemat)"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-mixpanel.js --compress --source-map dist/angulartics-mixpanel.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-mixpanel.min.js.map -o dist/angulartics-mixpanel.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angulartics/angulartics-mixpanel"
+  },
+  "bugs": {
+    "url": "https://github.com/angulartics/angulartics-mixpanel/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angulartics": "~0.18.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  }
+}
