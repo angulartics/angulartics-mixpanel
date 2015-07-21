@@ -4,9 +4,6 @@
 
 Mixpanel plugin for [Angulartics](http://github.com/luisfarzati/angulartics).
 
-## Important Note
-This plugin has no maintainers at the moment. If you use Mixpanel and want to contribute with code/documentation/examples and become an active maintainer of this project, please [let us know](https://github.com/angulartics/angulartics-mixpanel/issues/new?title=I+want+to+join+as+maintainer).
-
 ## Install
 
 First make sure you've read installation and setup instructions for [Angulartics](https://github.com/luisfarzati/angulartics#install).
