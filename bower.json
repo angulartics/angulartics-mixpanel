@@ -2,7 +2,7 @@
   "name": "angulartics-mixpanel",
   "main": "./dist/angulartics-mixpanel.min.js",
   "dependencies": {
-    "angulartics": "~0.18.0"
+    "angulartics": "~0.20"
   },
   "ignore": [
     "**/.*",

@@ -1,6 +1,6 @@
 {
   "name": "angulartics-mixpanel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mixpanel plugin for Angulartics",
   "keywords": [
     "mixpanel",
@@ -35,7 +35,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "angulartics": "~0.18.0"
+    "angulartics": "~0.20"
   },
   "devDependencies": {
     "uglify-js": "^2.4.23"
