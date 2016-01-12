@@ -1,6 +1,6 @@
 {
   "name": "angulartics-mixpanel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mixpanel plugin for Angulartics",
   "keywords": [
     "mixpanel",
@@ -18,7 +18,8 @@
     "Sampo Savolainen <sampo.savolainen@spatineo.com> (https://github.com/sampov2)",
     "Luis Farzati <lfarzati@gmail.com> (https://github.com/luisfarzati)",
     "mirko02 <mirko02@gmail.com> (https://github.com/mirko02)",
-    "Jude Matsalla <jude@affirm.com> (https://github.com/judemat)"
+    "Jude Matsalla <jude@affirm.com> (https://github.com/judemat)",
+    "Michael Holroyd <meekohi@gmail.com> (https://github.com/meekohi)"
   ],
   "main": "lib/index.js",
   "scripts": {
@@ -35,7 +36,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "angulartics": "~0.20"
+    "angulartics": "~1.0.0"
   },
   "devDependencies": {
     "uglify-js": "^2.4.23"
