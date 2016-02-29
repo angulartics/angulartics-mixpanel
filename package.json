@@ -23,8 +23,6 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rm -rf dist",
-    "prebuild": "npm run clean",
     "build": "mkdir -p dist && uglifyjs lib/angulartics-mixpanel.js --compress --source-map dist/angulartics-mixpanel.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-mixpanel.min.js.map -o dist/angulartics-mixpanel.min.js"
   },
   "repository": {
