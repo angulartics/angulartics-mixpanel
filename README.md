@@ -52,7 +52,7 @@ angular.module('myApp', [
 
 ## Documentation
 
-Documentation is available on the [Angulartics site](http://luisfarzati.github.io/angulartics).
+Documentation is available on the [Angulartics site](http://angulartics.github.io/).
 
 ## Development
 
