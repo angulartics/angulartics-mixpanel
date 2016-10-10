@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "angulartics-mixpanel",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Mixpanel plugin for Angulartics",
   "keywords": [
     "mixpanel",
